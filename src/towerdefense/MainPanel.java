@@ -1,4 +1,6 @@
-import java.util.Vector;
+package towerdefense;
+
+import javax.swing.JPanel;
 
 public class MainPanel extends JPanel, menu {
 
@@ -23,10 +25,6 @@ public class MainPanel extends JPanel, menu {
   public JLabel hardL;
 
   public JLabel EnterL;
-
-    public Vector  mymyJFrame;
-    public Vector  myJPanel;
-    public Vector  uses;
 
   public MainPanel() {
   }

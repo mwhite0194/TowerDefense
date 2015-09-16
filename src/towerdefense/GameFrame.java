@@ -1,4 +1,4 @@
-import java.util.Vector;
+package towerdefense;
 
 public class GameFrame {
 
@@ -18,7 +18,6 @@ public class GameFrame {
 
   public String difficulty;
 
-    public Vector  uses;
 
   public int getUserScore() {
   return 0;
