@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class menuPanel extends JPanel, menu {
+public class MainPanel extends JPanel, menu {
 
   public JButton easy;
 
@@ -28,7 +28,7 @@ public class menuPanel extends JPanel, menu {
     public Vector  myJPanel;
     public Vector  uses;
 
-  public menuPanel() {
+  public MainPanel() {
   }
 
   public void actionPerfomed(ActionEvent evt) {

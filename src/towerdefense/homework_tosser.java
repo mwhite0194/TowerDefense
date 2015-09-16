@@ -9,13 +9,6 @@ package towerdefense;
  *
  * @author mpw5216
  */
-public class TowerDefense {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class homework_tosser {
     
 }

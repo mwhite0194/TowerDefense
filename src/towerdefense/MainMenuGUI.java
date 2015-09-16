@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class menu {
+public class MainMenuGUI {
 
   public String easy;
 

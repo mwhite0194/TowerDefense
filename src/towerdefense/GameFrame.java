@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class game {
+public class GameFrame {
 
   public int userScore;
 
