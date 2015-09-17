@@ -6,30 +6,30 @@ public class MainPanel extends JPanel, menu {
 
   public JButton easy;
 
-  public JButton med;
+  public JButton medium;
 
   public JButton hard;
 
-  public JTextField input;
+  public JTextField player_name;
 
-  public JLabel scores;
+  public JTextArea high_scores;
 
-  public JLabel instr;
+  public JTextArea instructions;
 
-  public JLabel entnm;
-
-  public JLabel easyL;
-
-  public JLabel meduimL;
-
-  public JLabel hardL;
-
-  public JLabel EnterL;
 
   public MainPanel() {
+      
+      public String setName()
+      {
+          
+      }
+      
+      public String[] getScore()
+      {
+          
+      }
+              
   }
 
-  public void actionPerfomed(ActionEvent evt) {
-  }
 
 }
