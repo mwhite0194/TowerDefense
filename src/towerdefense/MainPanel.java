@@ -5,6 +5,9 @@ import javax.swing.*;
 public class MainPanel extends JPanel
 
 {
+    
+    private JFrame application;
+    
   public JButton easy;
 
   public JButton medium;
@@ -20,12 +23,15 @@ public class MainPanel extends JPanel
 
   public MainPanel() {
       
-      public String setName()
+      JButton button = new JButton("test");   
+      add(button); 
+      
+      //public String setName()
       {
           
       }
       
-      public String[] getScore()
+     // public String[] getScore()
       {
           
       }

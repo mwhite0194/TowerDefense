@@ -4,13 +4,12 @@ import javax.swing.*;
 
 public class Application {
 
+    MainMenuGUI mgui;
 
     public static void main(String[] args) 
     {
-        JFrame frame = new JFrame("TowerDefense");
-		frame.setSize(300, 300);
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       MainMenuGUI frame = new MainMenuGUI();
+       frame.setVisible(true);
     }
     
 }
