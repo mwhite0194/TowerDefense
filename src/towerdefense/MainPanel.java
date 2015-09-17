@@ -2,41 +2,47 @@ package towerdefense;
 
 import javax.swing.*;
 
-public class MainPanel extends JPanel
+public class MainPanel extends JPanel {
 
-{
-    
+    public JLabel enterName;
+
     private JFrame application;
-    
-  public JButton easy;
 
-  public JButton medium;
+    public JButton easy;
 
-  public JButton hard;
+    public JButton medium;
 
-  public JTextField player_name;
+    public JButton hard;
 
-  public JTextArea high_scores;
+    public JTextField player_name;
 
-  public JTextArea instructions;
+    public JTextArea high_scores;
 
+    public JTextArea instructions;
 
-  public MainPanel() {
+    public MainPanel() {
+
+        easy = new JButton("Easy");
+        add(easy);
+        medium = new JButton("Medium");
+        add(medium);
+        hard = new JButton("Hard");
+        add(hard);
+        enterName = new JLabel("Enter Name: ");
+        add(enterName);
+        player_name = new JTextField(23);
+        add(player_name);
       
-      JButton button = new JButton("easy");   
-      add(button); 
-      
-      //public String setName()
-      {
-          
-      }
-      
-     // public String[] getScore()
-      {
-          
-      }
-              
-  }
+        // public String[] setName()
+        {
 
+        }
+
+        // public String[] getScore()
+        {
+
+        }
+
+    }
 
 }
