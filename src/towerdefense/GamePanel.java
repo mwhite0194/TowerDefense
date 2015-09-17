@@ -14,7 +14,6 @@ import javax.swing.*;
  *
  * @author mpw5216
  */
-public class GamePanel {
 
 
 public class GamePanel {
