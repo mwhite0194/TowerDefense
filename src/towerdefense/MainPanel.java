@@ -1,9 +1,10 @@
 package towerdefense;
 
-import javax.swing.JPanel;
+import javax.swing.*;
 
-public class MainPanel extends JPanel, menu {
+public class MainPanel extends JPanel
 
+{
   public JButton easy;
 
   public JButton medium;
