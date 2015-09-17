@@ -33,22 +33,15 @@ public class GamePanel {
   
   public JLabel eraser;
   
-  public JLabel paper;
+  JLabel paper = new JLabel();
           
-  public JButton hwT;
+  JButton hwT = new JButton();
   
-  public JButton ec;
+  JButton ec = new JButton();
   
-  public JButton pf;
+  JButton pf = new JButton();
   
-  public JButton next;
-  
-  public int score;
-
-    public Vector  has;
-    public Towers uses;
-    public Vector  uses;
-    public Vector  uses;
+  JButton next = new JButton();
 
   public GamePanel() {
   }
