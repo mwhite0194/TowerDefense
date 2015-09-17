@@ -30,6 +30,14 @@ public class GamePanel {
       JLabel paper;
           
       JButton next;
+      
+      JButton hwt;
+      
+      JButton ec;
+      
+      JButton pf;
+      
+      int s;
   }
 
   public void actionPerformed(ActionEvent evt) 
