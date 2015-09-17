@@ -9,6 +9,7 @@ public class Application {
     public static void main(String[] args) 
     {
        MainMenuGUI frame = new MainMenuGUI();
+       frame.setTitle("Tower Defense");
        frame.setVisible(true);
        frame.setSize(1000,800);
     }
