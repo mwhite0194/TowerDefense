@@ -12,6 +12,7 @@ public class Application {
        frame.setTitle("Tower Defense");
        frame.setVisible(true);
        frame.setSize(1000,800);
+       frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
     
 }
