@@ -9,20 +9,20 @@ package towerdefense;
  *
  * @author mpw5216
  */
-public class Level {
+public class Enemies {
     
-    int level;
+    int enemy_number;
     
     
-    void setLevel()
+    public int getLevel()
     {
         
     }
     
-    int getEnemies()
+    public int incrementEnemy()
     {
         
     }
-    
-    
 }
+
+
