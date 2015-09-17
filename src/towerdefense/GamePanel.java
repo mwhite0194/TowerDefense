@@ -21,17 +21,17 @@ public class GamePanel {
 
  JLabel name = new JLabel();
 
-  public JLabel percent;
+  JLabel percent = new JLabel();
 
-  public JLabel score;
+  JLabel score = new JLabel();
 
-  public JLabel money;
+ JLabel money = new JLabel();
   
-  public JLabel stage;
+ JLabel stage = new JLabel();
   
-  public JLabel homework;
+ JLabel homework = new JLabel();
   
-  public JLabel eraser;
+ JLabel eraser = new JLabel();
   
   JLabel paper = new JLabel();
           
