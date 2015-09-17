@@ -23,7 +23,7 @@ public class MainPanel extends JPanel
 
   public MainPanel() {
       
-      JButton button = new JButton("test");   
+      JButton button = new JButton("easy");   
       add(button); 
       
       //public String setName()

@@ -10,6 +10,7 @@ public class Application {
     {
        MainMenuGUI frame = new MainMenuGUI();
        frame.setVisible(true);
+       frame.setSize(1000,800);
     }
     
 }
