@@ -1,20 +1,14 @@
-
 package towerdefense;
 
 public class Enemies {
-    
+
     int enemy_number;
-    
-    
-    public int getLevel()
-    {
-        
+
+    public int getLevel() {
+        return 0;
     }
-    
-    public int incrementEnemy()
-    {
-        
+
+    public int incrementEnemy() {
+        return 0;
     }
 }
-
-

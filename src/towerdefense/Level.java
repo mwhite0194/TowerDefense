@@ -1,21 +1,15 @@
-
 package towerdefense;
 
-
 public class Level {
-    
+
     int level;
-    
-    
-    void setLevel()
-    {
-        
+
+    void setLevel() {
+        return;
     }
-    
-    int getEnemies()
-    {
-        
+
+    int getEnemies() {
+        return 0;
     }
-    
-    
+
 }
