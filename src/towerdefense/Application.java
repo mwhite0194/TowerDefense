@@ -11,7 +11,7 @@ public class Application {
        MainMenuGUI frame = new MainMenuGUI();
        frame.setTitle("Tower Defense");
        frame.setVisible(true);
-       frame.setSize(1000,800);
+       frame.setSize(700,500);
        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
     
