@@ -7,6 +7,7 @@ public class MainPanel extends JPanel {
     
     GamePanel panel;
     MainPanel main;
+    
 
     public MainPanel() {
 
@@ -41,11 +42,13 @@ public class MainPanel extends JPanel {
 
         entername.setText("Enter Name");
 
+        instructions.setEditable(false);
         instructions.setColumns(20);
         instructions.setRows(5);
         instructions.setText("INSTRUCTIONS\n");
         jScrollPane1.setViewportView(instructions);
 
+        high_scores.setEditable(false);
         high_scores.setColumns(20);
         high_scores.setRows(5);
         high_scores.setText("HIGH SCORES\n");
@@ -67,10 +70,10 @@ public class MainPanel extends JPanel {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(181, 181, 181)
                                 .addComponent(entername))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(137, 137, 137)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addContainerGap()
                                 .addComponent(easy, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(medium, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -100,7 +103,8 @@ public class MainPanel extends JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
-
+       GamePanel easy = new GamePanel();
+       easy.getUserName();
         add(panel);
     }//GEN-LAST:event_easyActionPerformed
 
