@@ -131,21 +131,21 @@ public class GamePanel extends javax.swing.JPanel {
 
         next.setText("Next Wave");
 
-        hmk.setIcon(new javax.swing.ImageIcon("up.ist.local\\Users\\jrc5713\\Desktop\\homeworkTosser.png")); // NOI18N
+        hmk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/homeworkTosser.png"))); // NOI18N
         hmk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 hmkActionPerformed(evt);
             }
         });
 
-        ec.setIcon(new javax.swing.ImageIcon("up.ist.local\\Users\\jrc5713\\Desktop\\eraserCannon.png")); // NOI18N
+        ec.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/eraserCannon.png"))); // NOI18N
         ec.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ecActionPerformed(evt);
             }
         });
 
-        pf.setIcon(new javax.swing.ImageIcon("up.ist.local\\Users\\jrc5713\\Desktop\\PaerFootball.png")); // NOI18N
+        pf.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/PaerFootball.png"))); // NOI18N
         pf.setText("pf");
         pf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +188,7 @@ public class GamePanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(414, Short.MAX_VALUE)
+                .addContainerGap(430, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
