@@ -102,7 +102,7 @@ public class MainPanel extends JPanel {
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
 
         gui.remove(gui.main);
-        gui.add(gui.gameright);
+        gui.add(gui.gamePanel);
         gui.validate();
         gui.repaint();
     }//GEN-LAST:event_easyActionPerformed

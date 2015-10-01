@@ -5,18 +5,14 @@ import javax.swing.*;
 
 public class MainMenuGUI extends JFrame {
     
-    JPanel mainPanel;
-    CardLayout cardLayout;
-    GamePanelLeft gameleft;
     MainPanel main;
-    GamePanelRight gameright;
+    GamePanel gamePanel;
     
     public MainMenuGUI() 
     {
         super();
         main = new MainPanel(this);
-        gameleft = new GamePanelLeft();
-        gameright = new GamePanelRight();
+        gamePanel = new GamePanel();
         add(main);       
         pack();
         setLocationByPlatform(true);
@@ -24,13 +20,4 @@ public class MainMenuGUI extends JFrame {
         
     }
 
-
-    public void game()
-    {   
-        main.setVisible(false);
-        add(gameleft);
-        add(gameright);    
-        gameleft.setVisible(true);
-        gameright.setVisible(true);
-    }
 }
