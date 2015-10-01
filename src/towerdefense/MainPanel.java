@@ -5,17 +5,17 @@ import javax.swing.*;
 
 public class MainPanel extends JPanel {
     
-    GamePanel panel;
-    MainPanel main;
-    
+    MainMenuGUI gui;
+    GamePanelLeft gameleft;
 
-    public MainPanel() {
+    public MainPanel(MainMenuGUI gui) {
 
-        initComponents();
-        panel = new GamePanel();
-        setBackground(Color.black);
+        super();
+        this.gui = gui;
+        initComponents(); 
     }
-
+    
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -100,9 +100,11 @@ public class MainPanel extends JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
-       GamePanel easy = new GamePanel();
-       easy.getUserName();
-        add(panel);
+
+        gui.remove(gui.main);
+        gui.add(gui.gameright);
+        gui.validate();
+        gui.repaint();
     }//GEN-LAST:event_easyActionPerformed
 
 
