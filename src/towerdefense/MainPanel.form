@@ -81,11 +81,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Medium"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mediumActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="hard">
       <Properties>
         <Property name="text" type="java.lang.String" value="Hard"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hardActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="entername">
       <Properties>

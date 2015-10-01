@@ -38,8 +38,18 @@ public class MainPanel extends JPanel {
         });
 
         medium.setText("Medium");
+        medium.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mediumActionPerformed(evt);
+            }
+        });
 
         hard.setText("Hard");
+        hard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hardActionPerformed(evt);
+            }
+        });
 
         entername.setText("Enter your name here:");
 
@@ -101,12 +111,26 @@ public class MainPanel extends JPanel {
 
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
 
+        changePanels();
+    }//GEN-LAST:event_easyActionPerformed
+
+    private void mediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mediumActionPerformed
+       
+        changePanels();
+    }//GEN-LAST:event_mediumActionPerformed
+
+    private void hardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hardActionPerformed
+        
+        changePanels();
+    }//GEN-LAST:event_hardActionPerformed
+
+    public void changePanels()
+    {
         gui.remove(gui.main);
         gui.add(gui.gamePanel);
         gui.validate();
         gui.repaint();
-    }//GEN-LAST:event_easyActionPerformed
-
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton easy;
