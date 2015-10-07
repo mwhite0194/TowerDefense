@@ -6,7 +6,7 @@ import javax.swing.*;
 public class MainPanel extends JPanel {
     
     MainMenuGUI gui;
-    GamePanelLeft gameleft;
+    GamePanel gamePanel;
 
     public MainPanel(MainMenuGUI gui) {
 
@@ -112,6 +112,7 @@ public class MainPanel extends JPanel {
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
 
         changePanels();
+        
     }//GEN-LAST:event_easyActionPerformed
 
     private void mediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mediumActionPerformed
@@ -131,7 +132,16 @@ public class MainPanel extends JPanel {
         gui.validate();
         gui.repaint();
     }
+    
+    public String setName()
+    {
+     return null; 
+    }
 
+    public void getScore()
+    {
+        
+    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton easy;
     private javax.swing.JLabel entername;

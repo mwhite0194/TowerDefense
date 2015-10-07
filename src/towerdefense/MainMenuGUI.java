@@ -12,7 +12,7 @@ public class MainMenuGUI extends JFrame {
     {
         super();
         main = new MainPanel(this);
-        gamePanel = new GamePanel();
+        gamePanel = new GamePanel(main);
         add(main);       
         pack();
         setLocationByPlatform(true);
