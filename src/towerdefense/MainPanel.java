@@ -7,14 +7,15 @@ public class MainPanel extends JPanel {
     
     MainMenuGUI gui;
     GamePanel gamePanel;
-
+    String pname; 
+    
     public MainPanel(MainMenuGUI gui) {
 
         super();
-        this.gui = gui;
+        this.gui = gui;       
         initComponents(); 
+        
     }
-    
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -111,8 +112,7 @@ public class MainPanel extends JPanel {
 
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
 
-        changePanels();
-        
+        changePanels();       
     }//GEN-LAST:event_easyActionPerformed
 
     private void mediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mediumActionPerformed
@@ -127,20 +127,21 @@ public class MainPanel extends JPanel {
 
     public void changePanels()
     {
+        setName();
         gui.remove(gui.main);
         gui.add(gui.gamePanel);
         gui.validate();
         gui.repaint();
     }
     
-    public String setName()
+    public void setName()
     {
-     return null; 
+        gui.gamePanel.nameUser.setText(player_name.getText());
     }
 
     public void getScore()
     {
-        
+
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton easy;

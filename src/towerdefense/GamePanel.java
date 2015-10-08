@@ -42,32 +42,34 @@ public class GamePanel extends javax.swing.JPanel {
         return 0;
     }
 
-    private void getUserName() 
+    private String getUserName() 
     {
+        userName = nameUser.getText();
+        return userName;
     }
 
-    public String getUserHealth() {
-        return null;
+    public int getUserHealth() {
+        return userHealth;
     }
 
     public String getDStrength() {
-        return null;
+        return defenseStrength;
     }
 
     public String getDRange() {
-        return null;
+        return defenseRange;
     }
 
     public int getUserMoney() {
-        return 0;
+        return userMoney;
     }
 
     public int getStage() {
-        return 0;
+        return Stage;
     }
 
     public String getDifficulty() {
-        return null;
+        return difficulty;
     }
 
     /**
@@ -1360,7 +1362,7 @@ public class GamePanel extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel money;
     private javax.swing.JLabel name;
-    private javax.swing.JLabel nameUser;
+    public javax.swing.JLabel nameUser;
     private javax.swing.JButton next;
     private javax.swing.JLabel paepr;
     private javax.swing.JLabel paepr1;
