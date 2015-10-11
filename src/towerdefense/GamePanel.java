@@ -32,7 +32,7 @@ public class GamePanel extends javax.swing.JPanel {
     {
         initComponents();
         score.setText("0");
-        money.setText("$0");
+        moneylabel.setText("$0");
         percent.setText("100%");
         stageNumber.setText("1");
     }
@@ -85,7 +85,7 @@ public class GamePanel extends javax.swing.JPanel {
         name = new javax.swing.JLabel();
         percent = new javax.swing.JLabel();
         score = new javax.swing.JLabel();
-        money = new javax.swing.JLabel();
+        moneylabel = new javax.swing.JLabel();
         stage = new javax.swing.JLabel();
         homework = new javax.swing.JLabel();
         eraser = new javax.swing.JLabel();
@@ -106,7 +106,7 @@ public class GamePanel extends javax.swing.JPanel {
         paepr7 = new javax.swing.JLabel();
         paepr8 = new javax.swing.JLabel();
         paepr9 = new javax.swing.JLabel();
-        paepr10 = new javax.swing.JLabel();
+        difficultylabel = new javax.swing.JLabel();
         stageNumber = new javax.swing.JLabel();
         nameUser = new javax.swing.JLabel();
         health = new javax.swing.JLabel();
@@ -237,7 +237,7 @@ public class GamePanel extends javax.swing.JPanel {
 
         score.setText("999999");
 
-        money.setText("$65");
+        moneylabel.setText("$65");
 
         stage.setText("Stage:");
 
@@ -294,7 +294,7 @@ public class GamePanel extends javax.swing.JPanel {
 
         paepr9.setText("Small damage");
 
-        paepr10.setText("Easy");
+        difficultylabel.setText("Easy");
 
         stageNumber.setText("2");
 
@@ -367,7 +367,7 @@ public class GamePanel extends javax.swing.JPanel {
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addComponent(stage3)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(paepr10)))
+                                        .addComponent(difficultylabel)))
                                 .addGap(19, 19, 19)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -384,7 +384,7 @@ public class GamePanel extends javax.swing.JPanel {
                                                 .addComponent(percent))
                                             .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(money)))))))
+                                                .addComponent(moneylabel)))))))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(57, 57, 57)
@@ -405,11 +405,11 @@ public class GamePanel extends javax.swing.JPanel {
                     .addComponent(stage1)
                     .addComponent(score)
                     .addComponent(stage2)
-                    .addComponent(money))
+                    .addComponent(moneylabel))
                 .addGap(9, 9, 9)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(stage3)
-                    .addComponent(paepr10)
+                    .addComponent(difficultylabel)
                     .addComponent(stage)
                     .addComponent(stageNumber))
                 .addGap(18, 18, 18)
@@ -1237,6 +1237,7 @@ public class GamePanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JLabel difficultylabel;
     private javax.swing.JButton ec;
     private javax.swing.JLabel eraser;
     private javax.swing.JLabel health;
@@ -1360,13 +1361,12 @@ public class GamePanel extends javax.swing.JPanel {
     private javax.swing.JButton jButton98;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JLabel money;
+    public javax.swing.JLabel moneylabel;
     private javax.swing.JLabel name;
     public javax.swing.JLabel nameUser;
     private javax.swing.JButton next;
     private javax.swing.JLabel paepr;
     private javax.swing.JLabel paepr1;
-    private javax.swing.JLabel paepr10;
     private javax.swing.JLabel paepr2;
     private javax.swing.JLabel paepr3;
     private javax.swing.JLabel paepr4;

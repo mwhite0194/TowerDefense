@@ -123,7 +123,7 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="stage3" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="paepr10" min="-2" max="-2" attributes="0"/>
+                                          <Component id="difficultylabel" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
@@ -145,7 +145,7 @@
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="money" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="moneylabel" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -178,12 +178,12 @@
                       <Component id="stage1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="score" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="stage2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="money" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="moneylabel" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="stage3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="paepr10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="difficultylabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="stage" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="stageNumber" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -252,10 +252,13 @@
             <Property name="text" type="java.lang.String" value="999999"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="money">
+        <Component class="javax.swing.JLabel" name="moneylabel">
           <Properties>
             <Property name="text" type="java.lang.String" value="$65"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="stage">
           <Properties>
@@ -372,10 +375,13 @@
             <Property name="text" type="java.lang.String" value="Small damage"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="paepr10">
+        <Component class="javax.swing.JLabel" name="difficultylabel">
           <Properties>
             <Property name="text" type="java.lang.String" value="Easy"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="stageNumber">
           <Properties>

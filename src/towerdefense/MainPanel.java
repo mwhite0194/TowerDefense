@@ -1,6 +1,5 @@
 package towerdefense;
 
-import java.awt.*;
 import javax.swing.*;
 
 public class MainPanel extends JPanel {
@@ -9,12 +8,11 @@ public class MainPanel extends JPanel {
     GamePanel gamePanel;
     String pname; 
     
-    public MainPanel(MainMenuGUI gui) {
-
+    public MainPanel(MainMenuGUI gui) 
+    {
         super();
         this.gui = gui;       
-        initComponents(); 
-        
+        initComponents();       
     }
     
     @SuppressWarnings("unchecked")
@@ -112,16 +110,19 @@ public class MainPanel extends JPanel {
 
     private void easyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_easyActionPerformed
 
+        setEasy();
         changePanels();       
     }//GEN-LAST:event_easyActionPerformed
 
     private void mediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mediumActionPerformed
        
+        setMedium();
         changePanels();
     }//GEN-LAST:event_mediumActionPerformed
 
     private void hardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hardActionPerformed
         
+        setHard();
         changePanels();
     }//GEN-LAST:event_hardActionPerformed
 
@@ -138,7 +139,21 @@ public class MainPanel extends JPanel {
     {
         gui.gamePanel.nameUser.setText(player_name.getText());
     }
+    
+    public void setEasy()
+    {
+        gui.gamePanel.difficultylabel.setText("Easy");
+    }
 
+    public void setMedium()
+    {
+        gui.gamePanel.difficultylabel.setText("Medium");
+    }
+    
+    public void setHard()
+    {
+        gui.gamePanel.difficultylabel.setText("Hard");
+    }
     public void getScore()
     {
 
