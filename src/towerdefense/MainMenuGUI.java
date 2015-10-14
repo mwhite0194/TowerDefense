@@ -1,6 +1,5 @@
 package towerdefense;
 
-import java.awt.CardLayout;
 import javax.swing.*;
 
 public class MainMenuGUI extends JFrame {

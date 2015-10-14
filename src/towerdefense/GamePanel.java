@@ -227,6 +227,7 @@ public class GamePanel extends javax.swing.JPanel {
         jButton141 = new javax.swing.JButton();
         jButton143 = new javax.swing.JButton();
         jButton144 = new javax.swing.JButton();
+        enemy = new javax.swing.JLabel();
 
         jPanel2.setMaximumSize(new java.awt.Dimension(0, 0));
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 0));
@@ -452,342 +453,455 @@ public class GamePanel extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton9.setForeground(new java.awt.Color(255, 255, 0));
         jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 35, 35));
 
         jButton10.setForeground(new java.awt.Color(255, 255, 0));
         jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 360, 35, 35));
 
         jButton11.setForeground(new java.awt.Color(255, 255, 0));
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, 35, 35));
 
         jButton12.setForeground(new java.awt.Color(255, 255, 0));
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 440, 35, 35));
 
         jButton13.setForeground(new java.awt.Color(255, 255, 0));
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 41, 35, 35));
 
         jButton14.setForeground(new java.awt.Color(255, 255, 0));
         jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 81, 35, 35));
 
         jButton15.setForeground(new java.awt.Color(255, 255, 0));
         jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, 35, 35));
 
         jButton16.setForeground(new java.awt.Color(255, 255, 0));
         jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, 35, 35));
 
         jButton17.setForeground(new java.awt.Color(255, 255, 0));
         jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, 35, 35));
 
         jButton19.setForeground(new java.awt.Color(255, 255, 0));
         jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 320, 35, 35));
 
         jButton20.setForeground(new java.awt.Color(255, 255, 0));
         jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 360, 35, 35));
 
         jButton21.setForeground(new java.awt.Color(255, 255, 0));
         jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, 35, 35));
 
         jButton22.setForeground(new java.awt.Color(255, 255, 0));
         jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 440, 35, 35));
 
         jButton23.setForeground(new java.awt.Color(255, 255, 0));
         jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 35, 35));
 
         jButton24.setForeground(new java.awt.Color(255, 255, 0));
         jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 1, 35, 35));
 
         jButton25.setForeground(new java.awt.Color(255, 255, 0));
         jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 361, 35, 35));
 
         jButton26.setForeground(new java.awt.Color(255, 255, 0));
         jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 281, 35, 35));
 
         jButton27.setForeground(new java.awt.Color(255, 255, 0));
         jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 81, 35, 35));
 
         jButton28.setForeground(new java.awt.Color(255, 255, 0));
         jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 41, 35, 35));
 
         jButton29.setForeground(new java.awt.Color(255, 255, 0));
         jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 161, 35, 35));
 
         jButton30.setForeground(new java.awt.Color(255, 255, 0));
         jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 241, 35, 35));
 
         jButton31.setForeground(new java.awt.Color(255, 255, 0));
         jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 321, 35, 35));
 
         jButton32.setForeground(new java.awt.Color(255, 255, 0));
         jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 401, 35, 35));
 
         jButton33.setForeground(new java.awt.Color(255, 255, 0));
         jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 1, 35, 35));
 
         jButton34.setForeground(new java.awt.Color(255, 255, 0));
         jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 121, 35, 35));
 
         jButton35.setForeground(new java.awt.Color(255, 255, 0));
         jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 201, 35, 35));
 
         jButton36.setForeground(new java.awt.Color(255, 255, 0));
         jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 441, 35, 35));
 
         jButton37.setForeground(new java.awt.Color(255, 255, 0));
         jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 281, 35, 35));
 
         jButton38.setForeground(new java.awt.Color(255, 255, 0));
         jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 41, 35, 35));
 
         jButton39.setForeground(new java.awt.Color(255, 255, 0));
         jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 401, 35, 35));
 
         jButton40.setForeground(new java.awt.Color(255, 255, 0));
         jButton40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 441, 35, 35));
 
         jButton41.setForeground(new java.awt.Color(255, 255, 0));
         jButton41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 81, 35, 35));
 
         jButton42.setForeground(new java.awt.Color(255, 255, 0));
         jButton42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 161, 35, 35));
 
         jButton43.setForeground(new java.awt.Color(255, 255, 0));
         jButton43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, 35, 35));
 
         jButton44.setForeground(new java.awt.Color(255, 255, 0));
         jButton44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 321, 35, 35));
 
         jButton45.setForeground(new java.awt.Color(255, 255, 0));
         jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 241, 35, 35));
 
         jButton46.setForeground(new java.awt.Color(255, 255, 0));
         jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 201, 35, 35));
 
         jButton47.setForeground(new java.awt.Color(255, 255, 0));
         jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 361, 35, 35));
 
         jButton48.setForeground(new java.awt.Color(255, 255, 0));
         jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton48, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 121, 35, 35));
 
         jButton49.setForeground(new java.awt.Color(255, 255, 0));
         jButton49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 1, 35, 35));
 
         jButton50.setForeground(new java.awt.Color(255, 255, 0));
         jButton50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 320, 35, 35));
 
         jButton51.setForeground(new java.awt.Color(255, 255, 0));
         jButton51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 163, 35, 35));
 
         jButton52.setForeground(new java.awt.Color(255, 255, 0));
         jButton52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 241, 35, 35));
 
         jButton53.setForeground(new java.awt.Color(255, 255, 0));
         jButton53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 1, 35, 35));
 
         jButton54.setForeground(new java.awt.Color(255, 255, 0));
         jButton54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 201, 35, 35));
 
         jButton55.setForeground(new java.awt.Color(255, 255, 0));
         jButton55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 41, 35, 35));
 
         jButton56.setForeground(new java.awt.Color(255, 255, 0));
         jButton56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 363, 35, 35));
 
         jButton57.setForeground(new java.awt.Color(255, 255, 0));
         jButton57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton57, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 363, 35, 35));
 
         jButton58.setForeground(new java.awt.Color(255, 255, 0));
         jButton58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 81, 35, 35));
 
         jButton60.setForeground(new java.awt.Color(255, 255, 0));
         jButton60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton60, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 121, 35, 35));
 
         jButton62.setForeground(new java.awt.Color(255, 255, 0));
         jButton62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 81, 35, 35));
 
         jButton64.setForeground(new java.awt.Color(255, 255, 0));
         jButton64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton64, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 41, 35, 35));
 
         jButton66.setForeground(new java.awt.Color(255, 255, 0));
         jButton66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 161, 35, 35));
 
         jButton68.setForeground(new java.awt.Color(255, 255, 0));
         jButton68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton68, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 241, 35, 35));
 
         jButton69.setForeground(new java.awt.Color(255, 255, 0));
         jButton69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton69, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 320, 35, 35));
 
         jButton70.setForeground(new java.awt.Color(255, 255, 0));
         jButton70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 320, 35, 35));
 
         jButton71.setForeground(new java.awt.Color(255, 255, 0));
         jButton71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, 35, 35));
 
         jButton72.setForeground(new java.awt.Color(255, 255, 0));
         jButton72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 403, 35, 35));
 
         jButton73.setForeground(new java.awt.Color(255, 255, 0));
         jButton73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 400, 35, 35));
 
         jButton74.setForeground(new java.awt.Color(255, 255, 0));
         jButton74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 440, 35, 35));
 
         jButton75.setForeground(new java.awt.Color(255, 255, 0));
         jButton75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton75, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 1, 35, 35));
 
         jButton76.setForeground(new java.awt.Color(255, 255, 0));
         jButton76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton76, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 121, 35, 35));
 
         jButton77.setForeground(new java.awt.Color(255, 255, 0));
         jButton77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton77, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 41, 35, 35));
 
         jButton78.setForeground(new java.awt.Color(255, 255, 0));
         jButton78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton78, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 201, 35, 35));
 
         jButton79.setForeground(new java.awt.Color(255, 255, 0));
         jButton79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton79, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 81, 35, 35));
 
         jButton80.setForeground(new java.awt.Color(255, 255, 0));
         jButton80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton80, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 440, 35, 35));
 
         jButton83.setForeground(new java.awt.Color(255, 255, 0));
         jButton83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton83, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 203, 35, 35));
 
         jButton84.setForeground(new java.awt.Color(255, 255, 0));
         jButton84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton84, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 41, 35, 35));
 
         jButton85.setForeground(new java.awt.Color(255, 255, 0));
         jButton85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton85, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 243, 35, 35));
 
         jButton86.setForeground(new java.awt.Color(255, 255, 0));
         jButton86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton86, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 403, 35, 35));
 
         jButton87.setForeground(new java.awt.Color(255, 255, 0));
         jButton87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton87, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 283, 35, 35));
 
         jButton88.setForeground(new java.awt.Color(255, 255, 0));
         jButton88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton88, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 440, 35, 35));
 
         jButton89.setForeground(new java.awt.Color(255, 255, 0));
         jButton89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton89, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 323, 35, 35));
 
         jButton90.setForeground(new java.awt.Color(255, 255, 0));
         jButton90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton90, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 81, 35, 35));
 
         jButton91.setForeground(new java.awt.Color(255, 255, 0));
         jButton91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton91, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 363, 35, 35));
 
         jButton92.setForeground(new java.awt.Color(255, 255, 0));
         jButton92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton92, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 161, 35, 35));
 
         jButton93.setForeground(new java.awt.Color(255, 255, 0));
         jButton93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton93, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 403, 35, 35));
 
         jButton94.setForeground(new java.awt.Color(255, 255, 0));
         jButton94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton94, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 443, 35, 35));
 
         jButton96.setForeground(new java.awt.Color(255, 255, 0));
         jButton96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton96, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 1, 35, 35));
 
         jButton97.setForeground(new java.awt.Color(255, 255, 0));
         jButton97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton97, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 403, 35, 35));
 
         jButton98.setForeground(new java.awt.Color(255, 255, 0));
         jButton98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton98, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 283, 35, 35));
 
         jButton100.setForeground(new java.awt.Color(255, 255, 0));
         jButton100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton100, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 363, 35, 35));
 
         jButton101.setForeground(new java.awt.Color(255, 255, 0));
         jButton101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton101, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 203, 35, 35));
 
         jButton102.setForeground(new java.awt.Color(255, 255, 0));
         jButton102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton102, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 323, 35, 35));
 
         jButton104.setForeground(new java.awt.Color(255, 255, 0));
         jButton104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton104, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 1, 35, 35));
 
         jButton106.setForeground(new java.awt.Color(255, 255, 0));
         jButton106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton106, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 163, 35, 35));
 
         jButton107.setForeground(new java.awt.Color(255, 255, 0));
         jButton107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton107, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 203, 35, 35));
 
         jButton108.setForeground(new java.awt.Color(255, 255, 0));
         jButton108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton108, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 443, 35, 35));
 
         jButton109.setForeground(new java.awt.Color(255, 255, 0));
         jButton109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton109, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 1, 35, 35));
 
         jButton110.setForeground(new java.awt.Color(255, 255, 0));
         jButton110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton110, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 41, 35, 35));
 
         jButton111.setForeground(new java.awt.Color(255, 255, 0));
         jButton111.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton111, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 403, 35, 35));
 
         jButton112.setForeground(new java.awt.Color(255, 255, 0));
         jButton112.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton112, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 1, 35, 35));
 
         jButton113.setForeground(new java.awt.Color(255, 255, 0));
         jButton113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton113, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 41, 35, 35));
 
         jButton119.setForeground(new java.awt.Color(255, 255, 0));
         jButton119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton119, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 1, 35, 35));
 
         jButton120.setForeground(new java.awt.Color(255, 255, 0));
         jButton120.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton120, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 363, 35, 35));
 
         jButton121.setForeground(new java.awt.Color(255, 255, 0));
         jButton121.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton121, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 81, 35, 35));
 
         jButton122.setForeground(new java.awt.Color(255, 255, 0));
         jButton122.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton122, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 41, 35, 35));
 
         jButton123.setForeground(new java.awt.Color(255, 255, 0));
         jButton123.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton123, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 443, 35, 35));
 
         jButton124.setForeground(new java.awt.Color(255, 255, 0));
         jButton124.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton124, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 243, 35, 35));
 
         jButton125.setForeground(new java.awt.Color(255, 255, 0));
         jButton125.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton125, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 243, 35, 35));
 
         jButton127.setForeground(new java.awt.Color(255, 255, 0));
         jButton127.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton127, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 81, 35, 35));
 
         jButton128.setForeground(new java.awt.Color(255, 255, 0));
         jButton128.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton128, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 323, 35, 35));
 
         jButton129.setForeground(new java.awt.Color(255, 255, 0));
         jButton129.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton129, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 163, 35, 35));
 
         jButton130.setForeground(new java.awt.Color(255, 255, 0));
         jButton130.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton130, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 163, 35, 35));
 
         jButton131.setForeground(new java.awt.Color(255, 255, 0));
         jButton131.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton131, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 283, 35, 35));
 
         jButton132.setForeground(new java.awt.Color(255, 255, 0));
         jButton132.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton132, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 243, 35, 35));
 
         jButton133.setForeground(new java.awt.Color(255, 255, 0));
         jButton133.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton133, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 81, 35, 35));
 
         jButton134.setForeground(new java.awt.Color(255, 255, 0));
         jButton134.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton134, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 81, 35, 35));
 
         jButton136.setForeground(new java.awt.Color(255, 255, 0));
         jButton136.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton136, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 323, 35, 35));
 
         jButton137.setForeground(new java.awt.Color(255, 255, 0));
         jButton137.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton137, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 403, 35, 35));
 
         jButton138.setForeground(new java.awt.Color(255, 255, 0));
         jButton138.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton138, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 41, 35, 35));
 
         jButton139.setForeground(new java.awt.Color(255, 255, 0));
         jButton139.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton139, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 121, 35, 35));
 
         jButton140.setForeground(new java.awt.Color(255, 255, 0));
         jButton140.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
@@ -796,401 +910,23 @@ public class GamePanel extends javax.swing.JPanel {
                 jButton140ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton140, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 443, 35, 35));
 
         jButton141.setForeground(new java.awt.Color(255, 255, 0));
         jButton141.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton141, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 203, 35, 35));
 
         jButton143.setForeground(new java.awt.Color(255, 255, 0));
         jButton143.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton143, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 363, 35, 35));
 
         jButton144.setForeground(new java.awt.Color(255, 255, 0));
         jButton144.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
+        jPanel1.add(jButton144, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 283, 35, 35));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton84, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton88, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton90, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton92, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton49, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton50, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton54, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton57, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton60, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton68, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton75, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton78, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton80, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton96, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton71, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton73, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton53, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton79, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton83, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton87, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton89, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton91, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton93, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton94, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton131, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton110, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton137, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton108, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton133, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton129, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton104, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton136, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton124, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton107, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton120, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton100, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton98, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton121, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton113, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton130, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton125, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton102, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton97, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton119, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton101, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton123, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton109, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton122, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton134, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton112, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton106, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton138, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton127, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton139, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton141, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton132, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton144, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton128, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton143, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton111, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton140, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(123, 123, 123)
-                .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(170, 170, 170)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47)
-                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47)
-                .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton75, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton78, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton68, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(47, 47, 47)
-                    .addComponent(jButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton80, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton49, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton84, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton90, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton60, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton92, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton54, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(47, 47, 47)
-                    .addComponent(jButton50, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton57, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton88, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton96, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(211, 211, 211)
-                .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton71, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton73, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton53, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton79, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47)
-                .addComponent(jButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton83, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton87, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton89, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton91, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton93, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton94, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton119, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton113, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton121, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(47, 47, 47)
-                    .addComponent(jButton130, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton101, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton125, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton98, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton102, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton100, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton97, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton123, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addComponent(jButton104, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton110, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton133, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(47, 47, 47)
-                    .addComponent(jButton129, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton107, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton124, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton131, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton136, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton120, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton137, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(jButton108, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton109, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton122, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton134, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton139, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton112, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton138, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton127, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47)
-                .addComponent(jButton106, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton141, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton132, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton144, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton128, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton143, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton111, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton140, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        enemy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/black.jpg"))); // NOI18N
+        enemy.setText("jLabel1");
+        jPanel1.add(enemy, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, 10, 10));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -1201,7 +937,7 @@ public class GamePanel extends javax.swing.JPanel {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(146, Short.MAX_VALUE))
+                .addContainerGap(166, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1211,7 +947,7 @@ public class GamePanel extends javax.swing.JPanel {
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 511, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(26, Short.MAX_VALUE))))
+                        .addContainerGap(33, Short.MAX_VALUE))))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -1239,6 +975,7 @@ public class GamePanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel difficultylabel;
     private javax.swing.JButton ec;
+    private javax.swing.JLabel enemy;
     private javax.swing.JLabel eraser;
     private javax.swing.JLabel health;
     private javax.swing.JButton hmk;
