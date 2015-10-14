@@ -26,6 +26,8 @@ public class GamePanel extends javax.swing.JPanel {
     public int Stage;
 
     public String difficulty;
+    
+    private int s;
 
     
     public GamePanel(MainPanel mp)
@@ -34,7 +36,8 @@ public class GamePanel extends javax.swing.JPanel {
         score.setText("0");
         moneylabel.setText("$0");
         percent.setText("100%");
-        stageNumber.setText("1");
+        
+        
     }
     
   public int getUserScore() 
@@ -248,6 +251,11 @@ public class GamePanel extends javax.swing.JPanel {
         paepr.setText("Paper Football Launcher");
 
         next.setText("Next Wave");
+        next.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nextActionPerformed(evt);
+            }
+        });
 
         hmk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/homeworkTosser.png"))); // NOI18N
         hmk.addActionListener(new java.awt.event.ActionListener() {
@@ -296,7 +304,7 @@ public class GamePanel extends javax.swing.JPanel {
 
         difficultylabel.setText("Easy");
 
-        stageNumber.setText("2");
+        stageNumber.setText("0");
 
         nameUser.setText("NoName");
         nameUser.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -332,7 +340,7 @@ public class GamePanel extends javax.swing.JPanel {
                                 .addGap(43, 43, 43))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(paepr9, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addContainerGap(31, Short.MAX_VALUE))))
+                                .addContainerGap(33, Short.MAX_VALUE))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -372,8 +380,8 @@ public class GamePanel extends javax.swing.JPanel {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addComponent(stage, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(4, 4, 4)
-                                        .addComponent(stageNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(stageNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(stage2)
@@ -1208,7 +1216,7 @@ public class GamePanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 511, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 514, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(26, Short.MAX_VALUE))))
@@ -1234,6 +1242,11 @@ public class GamePanel extends javax.swing.JPanel {
     private void nameUserPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_nameUserPropertyChange
         // TODO add your handling code here:
     }//GEN-LAST:event_nameUserPropertyChange
+
+    private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
+        s++;
+        stageNumber.setText(String.valueOf(s));
+    }//GEN-LAST:event_nextActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
