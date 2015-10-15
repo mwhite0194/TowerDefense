@@ -5,11 +5,16 @@
  */
 package towerdefense;
 
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*; 
+       
 /**
  *
  * @author mpw5216
  */
-public class GamePanel extends javax.swing.JPanel {
+public class GamePanel extends javax.swing.JPanel implements ActionListener{
 
     public int userScore;
 
@@ -28,17 +33,29 @@ public class GamePanel extends javax.swing.JPanel {
     public String difficulty;
     
     private int s;
+    
+    MainPanel mp;
 
+    Timer t1;
+    int x = 100;
+    int y = 15;
     
     public GamePanel(MainPanel mp)
     {
+        super();
+        t1 = new Timer(1000, this);
+        t1.start();
+        this.mp = mp;
         initComponents();
         score.setText("0");
         moneylabel.setText("$0");
         percent.setText("100%");
         
+     
         
+    
     }
+    
     
   public int getUserScore() 
     {
@@ -982,8 +999,35 @@ public class GamePanel extends javax.swing.JPanel {
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
         s++;
         stageNumber.setText(String.valueOf(s));
+        
+         Object obj = evt.getSource();
+        if(obj == enemy){
+            t1.start();
+        }
+        if(obj == t1){
+            x = x;
+            y = y + 10;
+            enemy.setBounds(new Rectangle(x, y, 20, 20));
+        }
     }//GEN-LAST:event_nextActionPerformed
 
+ public void actionPerformed(java.awt.event.ActionEvent evt) {                                     
+        s++;
+        stageNumber.setText(String.valueOf(s));
+        
+         Object obj = evt.getSource();
+        if(obj == enemy){
+            t1.start();
+        }
+        if(obj == t1){
+            x = x;
+            y = y + 10;
+            enemy.setBounds(new Rectangle(x, y, 20, 20));
+            enemy.setText(""+x+","+y);
+            System.out.println(""+x+","+y);
+            repaint();
+        }
+    }                                    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel difficultylabel;
