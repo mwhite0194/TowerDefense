@@ -39,19 +39,24 @@ public class GamePanel extends javax.swing.JPanel implements ActionListener{
     Timer t1;
     int x = 100;
     int y = 15;
+     JButton enemy = new JButton();
     
     public GamePanel(MainPanel mp)
     {
-        super();
-        t1 = new Timer(1000, this);
+        
+        t1 = new Timer(500, this);
         t1.start();
-        this.mp = mp;
+        enemy = new JButton("Enemy");
+        enemy.addActionListener(this);
+        enemy.setBounds(new Rectangle(x, y, 20, 20));
+        add(enemy);
         initComponents();
         score.setText("0");
         moneylabel.setText("$0");
         percent.setText("100%");
         
-     
+        
+  
         
     
     }
@@ -247,7 +252,6 @@ public class GamePanel extends javax.swing.JPanel implements ActionListener{
         jButton141 = new javax.swing.JButton();
         jButton143 = new javax.swing.JButton();
         jButton144 = new javax.swing.JButton();
-        enemy = new javax.swing.JLabel();
 
         jPanel2.setMaximumSize(new java.awt.Dimension(0, 0));
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 0));
@@ -949,10 +953,6 @@ public class GamePanel extends javax.swing.JPanel implements ActionListener{
         jButton144.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tile.png"))); // NOI18N
         jPanel1.add(jButton144, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 283, 35, 35));
 
-        enemy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/black.jpg"))); // NOI18N
-        enemy.setText("jLabel1");
-        jPanel1.add(enemy, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, 10, 10));
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -999,40 +999,52 @@ public class GamePanel extends javax.swing.JPanel implements ActionListener{
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
         s++;
         stageNumber.setText(String.valueOf(s));
-        
-         Object obj = evt.getSource();
-        if(obj == enemy){
-            t1.start();
-        }
-        if(obj == t1){
-            x = x;
-            y = y + 10;
-            enemy.setBounds(new Rectangle(x, y, 20, 20));
-        }
     }//GEN-LAST:event_nextActionPerformed
-
+@Override
  public void actionPerformed(java.awt.event.ActionEvent evt) {                                     
-        s++;
-        stageNumber.setText(String.valueOf(s));
+       // s++;
+       // stageNumber.setText(String.valueOf(s));
         
          Object obj = evt.getSource();
-        if(obj == enemy){
+
+        if(obj == enemy)
+        {
             t1.start();
         }
-        if(obj == t1){
-            x = x;
-            y = y + 10;
+        if(obj == t1)
+        {
+            if (y < 295)
+            {
+                y = y + 10;
+            }
+            if (y == 295)
+            {
+            x = x + 10;
+            }
+            if (x==270)
+            {
+                y = y - 10;
+            }
+            if (y==200)
+            {
+                x = x + 10;
+            }
+            if (x==430)
+            {
+                y = y + 10;
+            }
+            
             enemy.setBounds(new Rectangle(x, y, 20, 20));
-            enemy.setText(""+x+","+y);
             System.out.println(""+x+","+y);
             repaint();
         }
+        
+       
     }                                    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel difficultylabel;
     private javax.swing.JButton ec;
-    private javax.swing.JLabel enemy;
     private javax.swing.JLabel eraser;
     private javax.swing.JLabel health;
     private javax.swing.JButton hmk;
